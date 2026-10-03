@@ -127,7 +127,7 @@ export function C16Matching() {
 }
 
 function CarFrontIcon() {
-  return <span className="car-thumb"><img src="/assets/vehicle.png" alt="" /></span>;
+  return <span className="car-thumb"><img src={`${import.meta.env.BASE_URL}assets/vehicle.png`} alt="" /></span>;
 }
 
 export function C17Assigned() {

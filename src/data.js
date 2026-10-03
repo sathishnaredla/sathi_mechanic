@@ -1,7 +1,7 @@
 export const mechanic = {
   id: "M001",
   name: "Rajesh Kumar",
-  photo: "/assets/mechanic-photo.png",
+  photo: `${import.meta.env.BASE_URL}assets/mechanic-photo.png`,
   rating: "4.9",
   jobs: "320+ jobs",
   verified: true,
